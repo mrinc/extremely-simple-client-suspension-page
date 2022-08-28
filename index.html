@@ -1,0 +1,108 @@
+<html>
+
+<head>
+  <title>Service Suspended</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    body {
+      background: rgb(242, 242, 242)
+    }
+    .container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+
+    .box {
+      box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+      background: #FFF;
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .text,
+    .link {
+      color: #212121;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+    }
+    .text.bold {
+      font-weight: 400;
+    }
+    .text.bbold {
+      font-weight: 700;
+    }
+    .text.big {
+      font-size: 20px;
+    }
+    .link {
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .footlink {
+      color: #c2c2c2;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 5px;
+      text-align: center;
+    }
+    .footlink:hover {
+      color: #212121;
+    }
+    .warning {
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 20px 10px 20px;
+      background : rgb(222, 19, 19);
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 30px;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="warning">SERVICE SUSPENDED</div>
+  <div class="container">
+    <div class="box">
+      <div class="text bold big">Please be advised your service has been suspended.</div>
+      <br />
+      <div class="text bold big">Please make payment using the methods below to restore your service.</div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- Kinda replace this paypal image with something more useful... or a link to your portal etc.. -->
+      <img style="max-width: 250px;" src="/paypal.png">
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="text">Should you have any issues, please contact us via {phone} or {email}</div>
+    </div>
+  </div>
+  <div>
+    <a class="link footlink" href="#">Powered by #</a>
+  </div>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</body>
+
+</html>
